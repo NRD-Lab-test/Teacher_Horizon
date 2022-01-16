@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/NRD-Lab-test/Teacher_Horizon/static/css/main.e1332ead.chunk.css",
+    "main.js": "/NRD-Lab-test/Teacher_Horizon/static/js/main.350c9c53.chunk.js",
+    "main.js.map": "/NRD-Lab-test/Teacher_Horizon/static/js/main.350c9c53.chunk.js.map",
+    "runtime-main.js": "/NRD-Lab-test/Teacher_Horizon/static/js/runtime-main.610149b0.js",
+    "runtime-main.js.map": "/NRD-Lab-test/Teacher_Horizon/static/js/runtime-main.610149b0.js.map",
+    "static/js/2.72d6f0b6.chunk.js": "/NRD-Lab-test/Teacher_Horizon/static/js/2.72d6f0b6.chunk.js",
+    "static/js/2.72d6f0b6.chunk.js.map": "/NRD-Lab-test/Teacher_Horizon/static/js/2.72d6f0b6.chunk.js.map",
+    "index.html": "/NRD-Lab-test/Teacher_Horizon/index.html",
+    "static/css/main.e1332ead.chunk.css.map": "/NRD-Lab-test/Teacher_Horizon/static/css/main.e1332ead.chunk.css.map",
+    "static/js/2.72d6f0b6.chunk.js.LICENSE.txt": "/NRD-Lab-test/Teacher_Horizon/static/js/2.72d6f0b6.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.610149b0.js",
+    "static/js/2.72d6f0b6.chunk.js",
+    "static/css/main.e1332ead.chunk.css",
+    "static/js/main.350c9c53.chunk.js"
+  ]
+}
