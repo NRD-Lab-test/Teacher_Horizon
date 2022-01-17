@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Teacher_Horizon/static/css/main.7affb3f2.chunk.css",
-    "main.js": "/Teacher_Horizon/static/js/main.f12001ee.chunk.js",
-    "main.js.map": "/Teacher_Horizon/static/js/main.f12001ee.chunk.js.map",
+    "main.js": "/Teacher_Horizon/static/js/main.a9c6827d.chunk.js",
+    "main.js.map": "/Teacher_Horizon/static/js/main.a9c6827d.chunk.js.map",
     "runtime-main.js": "/Teacher_Horizon/static/js/runtime-main.91267a0f.js",
     "runtime-main.js.map": "/Teacher_Horizon/static/js/runtime-main.91267a0f.js.map",
     "static/js/2.92b13c60.chunk.js": "/Teacher_Horizon/static/js/2.92b13c60.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.91267a0f.js",
     "static/js/2.92b13c60.chunk.js",
     "static/css/main.7affb3f2.chunk.css",
-    "static/js/main.f12001ee.chunk.js"
+    "static/js/main.a9c6827d.chunk.js"
   ]
 }
