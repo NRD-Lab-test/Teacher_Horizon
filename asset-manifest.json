@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Teacher_Horizon/static/css/main.c263d647.chunk.css",
+    "main.css": "/Teacher_Horizon/static/css/main.a67e46ae.chunk.css",
     "main.js": "/Teacher_Horizon/static/js/main.2510d61b.chunk.js",
     "main.js.map": "/Teacher_Horizon/static/js/main.2510d61b.chunk.js.map",
     "runtime-main.js": "/Teacher_Horizon/static/js/runtime-main.91267a0f.js",
@@ -8,13 +8,13 @@
     "static/js/2.c3788a6b.chunk.js": "/Teacher_Horizon/static/js/2.c3788a6b.chunk.js",
     "static/js/2.c3788a6b.chunk.js.map": "/Teacher_Horizon/static/js/2.c3788a6b.chunk.js.map",
     "index.html": "/Teacher_Horizon/index.html",
-    "static/css/main.c263d647.chunk.css.map": "/Teacher_Horizon/static/css/main.c263d647.chunk.css.map",
+    "static/css/main.a67e46ae.chunk.css.map": "/Teacher_Horizon/static/css/main.a67e46ae.chunk.css.map",
     "static/js/2.c3788a6b.chunk.js.LICENSE.txt": "/Teacher_Horizon/static/js/2.c3788a6b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.91267a0f.js",
     "static/js/2.c3788a6b.chunk.js",
-    "static/css/main.c263d647.chunk.css",
+    "static/css/main.a67e46ae.chunk.css",
     "static/js/main.2510d61b.chunk.js"
   ]
 }
