@@ -38,7 +38,7 @@ class HorizonGame extends(React.Component){
         this.csvData+="\n"
         this.totalPoints=0
         this.terminationPoints=4000
-        this.state={currentTrial:79,instructionNumber:0,isFullScreen:false,instructionPoints:0,instructionSubtrial:0,mobileCheck:false,mobile:false,instructions:[]}
+        this.state={currentTrial:0,instructionNumber:0,isFullScreen:false,instructionPoints:0,instructionSubtrial:0,mobileCheck:false,mobile:false,instructions:[]}
         this.writeKey=null
         this.id=null
         this.instructionVars=[
