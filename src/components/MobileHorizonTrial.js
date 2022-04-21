@@ -174,7 +174,7 @@ function get_random(arr,i){
     // gets a random number from normal dist with mean and sd as specified in the machine
     // parameters.
     let normal_dist=box_mueller()*arr[i].sd+arr[i].mu
-    normal_dist=Math.max(Math.floor(normal_dist),1)
+    normal_dist=Math.max(Math.round(normal_dist),1)
     normal_dist=Math.min(normal_dist,99)
     return normal_dist
 }

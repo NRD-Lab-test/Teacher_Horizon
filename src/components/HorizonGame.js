@@ -16,7 +16,6 @@ import desktopInstructionGen from "./instructions/DesktopInstructions"
 import mobileInstructionGen from "./instructions/MobileInstructions"
 import MobileDetector from "./MobileDetector"
 import "../style.css"
-const givenTemplateKey = "College_Horizon"
 class HorizonGame extends(React.Component){
     //this class loads the Horizon Game including the instructions. There are no props passed
     constructor(props){
@@ -123,7 +122,7 @@ class HorizonGame extends(React.Component){
         try{
             console.log(CSVData)
             let dateStart=Date.now()
-            await this.exius.writeFile("horizon",`Subject_${this.id}.json`,CSVData)
+            await this.exius.writeFile("horizon",`Horizon_${this.id}.csv`,CSVData)
             let dateEnd=Date.now()
             console.log(dateStart-dateEnd)
         }

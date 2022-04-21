@@ -19,7 +19,7 @@ class Initiate extends(React.Component){
     constructor(props){
         super(props)
         this.keyValue=""
-        this.state={preflightError:false,preflightInitiated:false,preflightMessage:""}
+        this.state={preflightError:false,preflightInitiated:false,preflightMessage:"Checking Credentials..."}
         this.submitPreflight=this.submitPreflight.bind(this)
         this.getQuery=this.getQuery.bind(this)
     }
@@ -41,7 +41,7 @@ class Initiate extends(React.Component){
                 if (this.id == undefined || this.keyValue == undefined){
                     throw Error("must have a valid id and keyvalue")
                 }
-                let exius = await preflightExius(URL,this.keyValue, {endpoint:"horizon",fname:`Subject_${this.id}.csv`,data:""})
+                let exius = await preflightExius(URL,this.keyValue, {endpoint:"horizon",fname:`Horizon_${this.id}.csv`,data:""})
                 this.props.getExiusObj(exius,this.id, false)
                 this.props.nextInstruction()
             }
@@ -49,14 +49,14 @@ class Initiate extends(React.Component){
         }
         catch(e){
             console.log(e)
-            this.setState({preflightError:true, preflightMessage:e.message})
+            this.setState({preflightError:true, preflightMessage:"ERROR:"+e.message})
         }
     }
     getQuery(){
         return Object.fromEntries([...new URLSearchParams(window.location.search)])
     }
     render(){
-        return <div>ERROR:{this.state.preflightMessage}</div>
+        return <div>{this.state.preflightMessage}</div>
     }
 
 }
