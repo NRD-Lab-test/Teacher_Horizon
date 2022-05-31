@@ -25,6 +25,6 @@ if you have an Exius server, you will need to create a set of keys for the serve
 ## Building the Experiment for Production
 To build this experiment into plain html/javascript in the build folder, run:
 ### `npm run build`
-To deploy your experiment to the gh-pages branch for free static hosting for your repository's expeirment, run 
+To deploy your experiment to the gh-pages branch for free static hosting for your repository's experiment, run 
 ### `npm run deploy`
 
