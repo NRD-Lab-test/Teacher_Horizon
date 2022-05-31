@@ -220,7 +220,7 @@ class HorizonGame extends(React.Component){
         else {
             return <Endscreen money={this.totalPoints} data={this.csvData} archive={this.archive}/>
         }
-        }
+    }
 }         
 function JSON_To_CSV(usefulData){
     let usefulDataClone=JSON.parse(JSON.stringify(usefulData))
